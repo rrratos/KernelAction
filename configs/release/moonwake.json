@@ -5,7 +5,7 @@
       "vendor": "xiaomi",
       "name": "MoonWake-KernelSU-SuSFS",
       "defconfig": "ruby_defconfig",
-      "extraConfig": "vendor/bbr.config vendor/noop.config vendor/kernelsu.config vendor/susfs.config vendor/kernelpatch.config CONFIG_RANDOMIZE_BASE=y CONFIG_RELOCATABLE=y CONFIG_KALLSYMS=y CONFIG_KALLSYMS_BASE_RELATIVE=y CONFIG_KALLSYMS_ABSOLUTE_PERCPU=y CONFIG_LTO_CLANG_THIN=y",
+      "extraConfig": "vendor/bbr.config vendor/noop.config vendor/kernelsu.config vendor/susfs.config vendor/kernelpatch.config vendor/nolto.config",
       "repo": "https://github.com/DPR-MoonWake/moonwake_kernel_xiaomi_ruby",
       "branch": "experimental"
     },
