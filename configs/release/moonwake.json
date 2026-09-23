@@ -1,26 +1,26 @@
 [
-  {
+ {
     "kernelSource": {
       "device": "ruby",
       "vendor": "xiaomi",
-      "name": "MoonWake-KernelSU-SuSFS",
+      "name": "MoonWake-Vanilla",
       "defconfig": "ruby_defconfig",
-      "extraConfig": "vendor/bbr.config vendor/noop.config vendor/kernelsu.config vendor/susfs.config vendor/kernelpatch.config vendor/nolto.config",
-      "repo": "https://github.com/rrratos/moonwake_kernel_xiaomi_ruby",
+      "extraConfig": "vendor/bbr.config vendor/noop.config vendor/kernelpatch.config vendor/nolto.config",
+      "repo": "https://github.com/DPR-MoonWake/moonwake_kernel_xiaomi_ruby",
       "branch": "experimental"
     },
     "output_image": "Image.gz-dtb",
-    "additional_script_link": "https://github.com/rrratos/KernelAction/raw/main/scripts/release/version-ksf.sh",
+    "additional_script_link": "https://github.com/rrratos/KernelAction/raw/main/scripts/release/version-v.sh",
     "additional_post_script_link": "disabled",
     "kp": {
       "use": false,
       "kpimg_link": ""
     },
     "kernelsu": {
-      "enable": true,
-      "setupLink": "https://raw.githubusercontent.com/XDL-MoonWake/KernelSU-Next/refs/heads/legacy-susfs-v2/kernel/setup.sh",
-      "setupArg": "legacy-susfs-v2",
-      "setupName": "KernelSU-Next",
+      "enable": false,
+      "setupLink": "",
+      "setupArg": "",
+      "setupName": "",
       "needPatch": false,
       "susfsLink": ""
     },
