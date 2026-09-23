@@ -6,7 +6,7 @@
       "name": "MoonWake-Vanilla",
       "defconfig": "ruby_defconfig",
       "extraConfig": "vendor/bbr.config vendor/noop.config vendor/kernelpatch.config",
-      "repo": "https://github.com/DPR-MoonWake/moonwake_kernel_xiaomi_ruby",
+      "repo": "https://github.com/rrratos/moonwake_kernel_xiaomi_ruby",
       "branch": "experimental"
     },
     "output_image": "Image.gz-dtb",
